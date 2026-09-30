@@ -1,0 +1,5 @@
+# Conclusiones del Taller
+
+1. **Desacoplamiento cliente-servidor:** Las pruebas en Postman evidenciaron cómo las APIs REST permiten interactuar con las reglas de negocio y los datos de un backend sin depender de una interfaz gráfica, utilizando JSON como estándar universal de intercambio.
+2. **Semántica rigurosa del protocolo HTTP:** Cada método HTTP (`GET`, `POST`, `PUT`, `DELETE`) define con precisión la intención sobre el recurso y determina si la operación es de lectura, creación, mutación o eliminación, garantizando la predictibilidad y estabilidad de la arquitectura.
+3. **Diagnóstico mediante códigos de estado:** La correcta interpretación de las familias de estado (particularmente la distinción entre fallas del cliente en `4xx` y fallas del servidor en `5xx`) es la herramienta primordial para el depurado y la resolución de incidentes en el desarrollo de software moderno.
